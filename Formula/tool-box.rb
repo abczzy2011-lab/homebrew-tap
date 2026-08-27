@@ -3,8 +3,8 @@
 class ToolBox < Formula
   desc "Offline web-based toolkit with 27 utilities"
   homepage "https://github.com/abczzy2011-lab/toolbox"
-  url "https://github.com/abczzy2011-lab/toolbox/releases/download/v1.0.4/toolbox.zip"
-  sha256 "d697c2f5a6fcc04f68cc75aeef3692cf7c20bf357da7df0f07d1d69317e178f4"
+  url "https://github.com/abczzy2011-lab/toolbox/releases/download/v1.0.0/toolbox.zip"
+  sha256 "e18b20c1b625d76fc4b0d15d3c5c87df60a4c1497463b30fe80cef6a36663d54"
   license "MIT"
 
   def install
