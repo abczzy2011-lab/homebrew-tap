@@ -9,6 +9,7 @@ class ToolBox < Formula
 
   def install
     libexec.install Dir["*"]
+    chmod 0755, libexec/"tool-box"
     bin.write_exec_script libexec/"tool-box"
   end
 end
